@@ -360,9 +360,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.2/simple-lightbox.js"></script>
   <script src="assets/js/script.js"></script>
   <script src="assets/js/contador.js"></script>
-  <script src="http://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
-  
-  <script src="assets/js/slickrun.js"></script>
 </body>
 
 </html>

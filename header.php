@@ -51,6 +51,4 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.2/simplelightbox.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.2/nouislider.min.css">
-  <link rel="stylesheet" href="http://cdn.jsdelivr.net/jquery.slick/1.4.1/slick-theme.css">
-  <link rel="stylesheet" href="http://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.css">
 </head>
