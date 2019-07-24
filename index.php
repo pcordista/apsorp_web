@@ -19,6 +19,7 @@
 
   <!-- MENU -->
   <?php include 'menu.php'; ?>
+  <?php include 'menuside.php'; ?>
 
 
   <section class="slider relative">
@@ -254,7 +255,7 @@
   <?php include 'content-faleconosco.php'; ?>
   <?php include 'content-novidades.php'; ?>
 
-  
+
 
   <section class="depoimento relative">
     <img src="assets/img/depoimentos.jpg" width="100%" class="hide-on-small-only" style="min-height: 420px;" />
@@ -272,7 +273,7 @@
         </div>
         <div class="relative">
           <div class="depoimento_text jumpline">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           </div>
         </div>
         <div class="line">
@@ -282,7 +283,7 @@
 
           <div class="col s6 m3 l3 center depoitem">
             <div class="deponumber">
-              &#43;300
+              &#43;<span class="count">300</span>
             </div>
             <div class="depotext">
               LOREM IPSUM DOLOR
@@ -291,7 +292,7 @@
 
           <div class="col s6 m3 l3 center depoitem">
             <div class="deponumber">
-              &#43;15600
+              &#43;<span class="count">15600</span>
             </div>
             <div class="depotext">
               LOREM IPSUM DOLOR
@@ -300,7 +301,7 @@
 
           <div class="col s6 m3 l3 center depoitem">
             <div class="deponumber">
-              &#43;1500
+              &#43;<span class="count">1500</span>
             </div>
             <div class="depotext">
               LOREM IPSUM DOLOR
@@ -309,7 +310,7 @@
 
           <div class="col s6 m3 l3 center depoitem">
             <div class="deponumber">
-              &#43;12
+              &#43;<span class="count">12</span>
             </div>
             <div class="depotext">
               LOREM IPSUM DOLOR
@@ -333,21 +334,21 @@
       </div>
       <div class="row jumpline casesgrid">
 
-        <div class="col s6 m3 l3 nopadding">
-          <img src="assets/img/useruploads/case1.jpg" class="casesimg" width="100%" />
-        </div>
+        <a class="col s6 m3 l3 nopadding" href="assets/img/useruploads/case1.jpg">
+          <img src="assets/img/useruploads/case1.jpg" width="100%" />
+        </a>
 
-        <div class="col s6 m3 l3 nopadding">
+        <a class="col s6 m3 l3 nopadding" href="assets/img/useruploads/case2.jpg">
           <img src="assets/img/useruploads/case2.jpg" width="100%" />
-        </div>
+        </a>
 
-        <div class="col s6 m3 l3 nopadding">
+        <a class="col s6 m3 l3 nopadding" href="assets/img/useruploads/case3.jpg">
           <img src="assets/img/useruploads/case3.jpg" width="100%" />
-        </div>
+        </a>
 
-        <div class="col s6 m3 l3 nopadding">
+        <a class="col s6 m3 l3 nopadding" href="assets/img/useruploads/case4.jpg">
           <img src="assets/img/useruploads/case4.jpg" width="100%" />
-        </div>
+        </a>
 
       </div>
     </div>
@@ -356,7 +357,12 @@
   <?php include 'footer.php'; ?>
   <script src="assets/js/jquery-3.3.1.min.js"></script>
   <script src="assets/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.2/simple-lightbox.js"></script>
   <script src="assets/js/script.js"></script>
+  <script src="assets/js/contador.js"></script>
+  <script src="http://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
+  
+  <script src="assets/js/slickrun.js"></script>
 </body>
 
 </html>

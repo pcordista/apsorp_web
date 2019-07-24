@@ -5,24 +5,14 @@
 
   <!-- MENU -->
   <?php include 'menu.php'; ?>
+  <?php include 'menuside.php'; ?>
 
   <section class="header_produto relative">
     <img src="assets/img/useruploads/header_produto.jpg" class="desktop" width="100%" />
     <img src="assets/img/useruploads/header_produto_mobile.jpg" class="mobiletablet" width="100%" style="height: 180px" />
-    <div class="header_title valign-wrapper">
-      CATEGORIAS
-    </div>
   </section>
 
-  <nav class="breadcrumbnav">
-    <div class="nav-wrapper container clearContainer">
-      <div class="col s12 valign-wrapper">
-        <a href="#!" class="breadcrumb valign-wrapper"> <i class="material-icons">home</i> Início</a>
-        <a href="#!" class="breadcrumb">Categoria</a>
-        <a href="#!" class="breadcrumb">Produto</a>
-      </div>
-    </div>
-  </nav>
+  <?php include 'content-breadcrumb.php'; ?>
 
   <section class="produto_content">
     <div class="container clearContainer">

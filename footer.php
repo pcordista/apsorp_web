@@ -12,7 +12,7 @@
                 <div class="row rowredes jumpline2">
 
                     <a href="#0">
-                        <div class="col s12 m35 redessectionitem relative" style="">
+                        <div class="col s12 m3 redessectionitem relative" style="">
                             <img src="assets/img/redes-youtube.png" />
                             <div class="redessection_text valign-wrapper justifycenter">
                                 Youtube
@@ -27,7 +27,7 @@
 
 
                     <a href="#0">
-                        <div class="col s12 m35 redessectionitem relative">
+                        <div class="col s12 m3 redessectionitem relative">
                             <img src="assets/img/redes-facebook.png" />
                             <div class="redessection_text valign-wrapper justifycenter">
                                 Facebook
@@ -41,7 +41,7 @@
                     </a>
 
                     <a href="#0">
-                        <div class="col s12 m35 redessectionitem relative">
+                        <div class="col s12 m3 redessectionitem relative">
                             <img src="assets/img/redes-instagram.png" />
                             <div class="redessection_text valign-wrapper justifycenter">
                                 Instagram
@@ -49,6 +49,20 @@
                             <div class="redessection_icon valign-wrapper justifycenter">
                                 <div class="redessection_icon_inter valign-wrapper justifycenter">
                                     <img src="assets/img/icon-insta-2.png" />
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#0">
+                        <div class="col s12 m3 redessectionitem relative">
+                            <img src="assets/img/redes-linkedin.png" />
+                            <div class="redessection_text valign-wrapper justifycenter">
+                                Linkedin
+                            </div>
+                            <div class="redessection_icon valign-wrapper justifycenter">
+                                <div class="redessection_icon_inter valign-wrapper justifycenter">
+                                    <img src="assets/img/icon-linkedin.png" />
                                 </div>
                             </div>
                         </div>

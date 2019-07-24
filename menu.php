@@ -62,9 +62,9 @@
             </div>
         </div>
         <div class="col s2 nopadding nopadding valign-wrapper justifycenter">
-            <div class="icontwo menumobileicon">
+            <a class="icontwo menumobileicon" onclick="openNav()">
                 <i class="material-icons" style="color: var(--colorBlue);">menu</i>
-            </div>
+    </a>
         </div>
     </div>
 </div>

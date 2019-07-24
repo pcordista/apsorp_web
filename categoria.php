@@ -5,6 +5,7 @@
 
     <!-- MENU -->
     <?php include 'menu.php'; ?>
+    <?php include 'menuside.php'; ?>
 
     <section class="header_produto relative">
         <img src="assets/img/useruploads/header_produto.jpg" class="desktop" width="100%" />
@@ -14,15 +15,7 @@
         </div>
     </section>
 
-    <nav class="breadcrumbnav">
-        <div class="nav-wrapper container clearContainer">
-            <div class="col s12 valign-wrapper">
-                <a href="#!" class="breadcrumb valign-wrapper"> <i class="material-icons">home</i> Início</a>
-                <a href="#!" class="breadcrumb">Categoria</a>
-                <a href="#!" class="breadcrumb">Produto</a>
-            </div>
-        </div>
-    </nav>
+    <?php include 'content-breadcrumb.php'; ?>
 
     <section class="posts_produtos container relative">
         <div class="col s12 mobiletablet">

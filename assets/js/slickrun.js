@@ -1,0 +1,1 @@
+    $('.carousel').slick({slidesToShow:8, slidesToScroll:8, dots:true});
